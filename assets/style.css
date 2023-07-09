@@ -3,3 +3,23 @@ body {
     font-family: 'Prata', serif;
     font-weight: 500;
 }
+
+/* ========= HOME ========= */
+
+.row-profile {
+
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+.img-profile-col {
+    margin-top: 3rem;
+}
+
+.img-profile {
+    border-radius: 50%;
+    outline: .5rem solid white;
+    box-shadow: 0 0 0 .5rem grey;
+}
