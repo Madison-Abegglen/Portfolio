@@ -1,25 +1,32 @@
+/*========= HTML =========*/
 body {
     font-family: 'Bacasime Antique', serif;
     font-family: 'Prata', serif;
     font-weight: 500;
+    background-image: url(/assets/BG_site2.jpg);
 }
 
-/* ========= HOME ========= */
+/*========= HOME =========*/
 
 .row-profile {
-
+    padding: 1rem;
+    align-items: center;
 }
 
-.card-body {
+.row-bumper {
+    height: 5vh;
+}
+
+.card-home {
+    height: 50vh;
     padding: 2rem;
-}
-
-.img-profile-col {
-    margin-top: 3rem;
+    background-color: #83725F;
+    color: white;
 }
 
 .img-profile {
+    margin: 1rem;
     border-radius: 50%;
     outline: .5rem solid white;
-    box-shadow: 0 0 0 .5rem grey;
+    box-shadow: 0 0 .7rem 0 black;
 }
