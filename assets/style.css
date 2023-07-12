@@ -22,7 +22,7 @@ body {
     height: 10vh;
 }
 
-/*========= CARD =========*/
+/*========= CARDS =========*/
 .card-title {
     height: 10vh;
 }
@@ -71,4 +71,11 @@ body {
 /*================== FOOTER ==================*/
 .nav-footer {
     height: 8vh;
+    width: 100vw;
+}
+
+.copyright {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
