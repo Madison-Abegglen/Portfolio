@@ -6,6 +6,11 @@ body {
     background-image: url(/assets/BG_site2.jpg);
 }
 
+/*================== HEADER ================*/
+.nav-header {
+    height: 8vh;
+}
+
 /*================== HOME ==================*/
 /*========= ROWS =========*/
 .row-profile {
@@ -14,7 +19,7 @@ body {
 }
 
 .row-bumper {
-    height: 5vh;
+    height: 10vh;
 }
 
 /*========= CARD =========*/
@@ -45,7 +50,7 @@ body {
     box-shadow: 0 0 .7rem 0 black;
 }
 
-/*========= HIDDEN CONTENT FOR MOBILE =========*/
+/*========= HIDDEN CONTENT FOR MOBILE ========*/
 @media (max-width: 500px) {
     .img-profile {
         display: none;
@@ -56,9 +61,14 @@ body {
     }
 }
 
-/*========= HIDDEN CONTENT FOR FULLSCREEN =========*/
+/*========= HIDDEN CONTENT FOR FULLSCREEN ====*/
 @media (min-width: 500px) {
     .img-profile2 {
         display: none;
     }
+}
+
+/*================== FOOTER ==================*/
+.nav-footer {
+    height: 8vh;
 }
