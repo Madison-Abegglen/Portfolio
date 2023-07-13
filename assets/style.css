@@ -50,14 +50,33 @@ body {
     box-shadow: 0 0 .7rem 0 black;
 }
 
+/*========= ICONS =========*/
+.github-icon img {
+    width: 4em;
+}
+
+.linkedin-icon img {
+    width: 4em;
+}
+
+.instagram-icon img {
+    width: 4em;
+}
+
 /*========= HIDDEN CONTENT FOR MOBILE ========*/
 @media (max-width: 500px) {
     .img-profile {
         display: none;
     }
     .card-home {
-        height: 80vh;
-        margin: 0;
+        height: 80%;
+        width: 90vw;
+        margin-left: 1.25rem;
+    }
+    .row-socials {
+        justify-content: center;
+        padding-top: 1rem;
+        padding-left: .5rem;
     }
 }
 
@@ -65,6 +84,10 @@ body {
 @media (min-width: 500px) {
     .img-profile2 {
         display: none;
+    }
+
+    .row-socials {
+        justify-content: flex-end;
     }
 }
 
