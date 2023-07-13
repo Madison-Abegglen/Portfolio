@@ -18,7 +18,11 @@ body {
     align-items: center;
 }
 
-.row-bumper {
+.row-top-bumper {
+    height: 10vh;
+}
+
+.row-bottom-bumper {
     height: 10vh;
 }
 
@@ -68,11 +72,26 @@ body {
     .img-profile {
         display: none;
     }
+    
+
+    .nav-header {
+        height: auto;
+    }
+
+    .row-top-bumper {
+        height: 7.5vh;
+    }
+
     .card-home {
         height: 80%;
         width: 90vw;
         margin-left: 1.25rem;
     }
+
+    .row-profile .div-profile {
+        padding-left: 15vw;
+    }
+
     .row-socials {
         justify-content: center;
         padding-top: 1rem;
