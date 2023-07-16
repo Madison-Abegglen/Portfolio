@@ -13,7 +13,7 @@ body {
 
 /*================== HOME ==================*/
 /*========= ROWS =========*/
-.row-profile {
+.row-profile-fs {
     /* padding: 1rem; */
     align-items: center;
 }
@@ -52,6 +52,9 @@ body {
     border-radius: 50%;
     outline: .5rem solid white;
     box-shadow: 0 0 .7rem 0 black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 /*========= ICONS =========*/
@@ -68,14 +71,13 @@ body {
 }
 
 /*========= HIDDEN CONTENT FOR MOBILE ========*/
-@media (max-width: 500px) {
-    .img-profile {
+@media (max-width: 1600px) {
+    .row-profile-fs {
         display: none;
     }
-    
 
-    .nav-header {
-        height: auto;
+    .row-socials-fs {
+        display: none;
     }
 
     .row-top-bumper {
@@ -83,29 +85,22 @@ body {
     }
 
     .card-home {
-        height: 80%;
-        width: 90vw;
-        margin-left: 1.25rem;
-    }
-
-    .row-profile .div-profile {
-        padding-left: 15vw;
-    }
-
-    .row-socials {
-        justify-content: center;
-        padding-top: 1rem;
-        padding-left: .5rem;
+        width: 95vw;
+        margin: 0;
     }
 }
 
 /*========= HIDDEN CONTENT FOR FULLSCREEN ====*/
-@media (min-width: 500px) {
-    .img-profile2 {
+@media (min-width: 1600px) {
+    .row-profile-m {
+        display: none;
+    }
+    
+    .row-socials-m {
         display: none;
     }
 
-    .row-socials {
+    .row-socials-fs {
         justify-content: flex-end;
     }
 }
@@ -114,10 +109,4 @@ body {
 .nav-footer {
     height: 8vh;
     width: 100vw;
-}
-
-.copyright {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
 }
