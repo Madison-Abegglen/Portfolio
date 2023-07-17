@@ -3,7 +3,7 @@ body {
     font-family: 'Bacasime Antique', serif;
     font-family: 'Prata', serif;
     font-weight: 500;
-    background-image: url(/assets/BG_site2.jpg);
+    /* background-image: url(/assets/BG_site2.jpg); */
 }
 
 /*================== HEADER ================*/
@@ -35,16 +35,14 @@ body {
     height: 50vh;
     margin: 2rem;
     padding: 2rem;
-    background-color: #83725F;
-    color: white;
+    background-color: #e6e4e2;
+    color: #024035;
 }
 
 /*========= IMAGE =========*/
 .img-profile {
-    /* margin: 1rem; */
-    border-radius: 50%;
-    outline: .5rem solid white;
-    box-shadow: 0 0 .7rem 0 black;
+    margin: 1rem;
+    border-radius: 25%;
 }
 
 .img-profile2 {
@@ -60,6 +58,7 @@ body {
 /*========= ICONS =========*/
 .github-icon img {
     width: 4em;
+    color: #024035;
 }
 
 .linkedin-icon img {
@@ -70,7 +69,7 @@ body {
     width: 4em;
 }
 
-/*========= HIDDEN CONTENT FOR MOBILE ========*/
+/*========= STYLING CONTENT FOR MOBILE ========*/
 @media (max-width: 1600px) {
     .row-profile-fs {
         display: none;
@@ -90,7 +89,7 @@ body {
     }
 }
 
-/*========= HIDDEN CONTENT FOR FULLSCREEN ====*/
+/*========= STYLING CONTENT FOR FULLSCREEN ====*/
 @media (min-width: 1600px) {
     .row-profile-m {
         display: none;
