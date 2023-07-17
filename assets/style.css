@@ -3,7 +3,7 @@ body {
     font-family: 'Bacasime Antique', serif;
     font-family: 'Prata', serif;
     font-weight: 500;
-    /* background-image: url(/assets/BG_site2.jpg); */
+    background-color: #dad8cc;
 }
 
 /*================== HEADER ================*/
@@ -35,7 +35,7 @@ body {
     height: 50vh;
     margin: 2rem;
     padding: 2rem;
-    background-color: #e6e4e2;
+    background-color: #ebe9e8;
     color: #024035;
 }
 
@@ -70,7 +70,7 @@ body {
 }
 
 /*========= STYLING CONTENT FOR MOBILE ========*/
-@media (max-width: 1600px) {
+@media (max-width: 500px) {
     .row-profile-fs {
         display: none;
     }
@@ -90,7 +90,7 @@ body {
 }
 
 /*========= STYLING CONTENT FOR FULLSCREEN ====*/
-@media (min-width: 1600px) {
+@media (min-width: 500px) {
     .row-profile-m {
         display: none;
     }
