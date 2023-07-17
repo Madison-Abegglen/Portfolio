@@ -12,6 +12,10 @@ body {
     flex-direction: column;
 }
 
+.copyright {
+    margin: 0;
+}
+
 /*========= ROWS =========*/
 .row-profile-fs {
     display: flex;
@@ -19,6 +23,19 @@ body {
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
+}
+
+.row-profile-m {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row-copyright {
+    width: 100vw;
+    margin: 0;
+    display: flex;
+    justify-content: center;
 }
 
 .row-top-bumper {
@@ -44,13 +61,13 @@ body {
 }
 
 .card-home2 {
-    margin: 2rem;
-    padding: 2rem;
+    margin: 1rem;
+    padding: 3rem;
     background-color: #ebe9e8;
     color: black;
 }
 
-/*========= IMAGE =========*/
+/*========= IMAGES =========*/
 .img-profile {
     margin: 1rem;
     border-radius: 25%;
@@ -61,24 +78,13 @@ body {
 .img-profile2 {
     margin: 1rem;
     border-radius: 25%;
-}
-
-/*========= ICONS =========*/
-.github-icon img {
-    width: 4em;
-    color: #024035;
-}
-
-.linkedin-icon img {
-    width: 4em;
-}
-
-.instagram-icon img {
-    width: 4em;
+    min-height: 274px;
+    min-width: 230px;
 }
 
 /*========= STYLING CONTENT FOR MOBILE ========*/
-@media (max-width: 991px) {
+@media (max-width: 989px) {
+    /*========= ROWS =========*/
     .row-profile-fs {
         display: none;
     }
@@ -87,22 +93,42 @@ body {
         display: none;
     }
 
+    .row-socials-m {
+        display: flex;
+        justify-content: center;
+    }
+
     .row-top-bumper {
         height: 7.5vh;
     }
 
+    /*========= HEADER =========*/
     .nav-header {
         height: auto;
     }
 
+    /*========= FOOTER =========*/
     .nav-footer {
         height: auto;
     }
+
+    /*========= ICONS ==========*/
+    .github-icon img {
+        width: 3em;
+    }
     
+    .linkedin-icon img {
+        width: 3em;
+    }
+    
+    .instagram-icon img {
+        width: 3em;
+    }
 }
 
 /*========= STYLING CONTENT FOR FULLSCREEN ====*/
 @media (min-width: 991px) {
+    /*========= ROWS =========*/
     .row-profile-m {
         display: none;
     }
@@ -115,11 +141,26 @@ body {
         justify-content: flex-end;
     }
 
+    /*========= HEADER =========*/
     .nav-header {
         height: 8vh;
     }
 
+    /*========= FOOTER =========*/
     .nav-footer {
         height: 8vh;
+    }
+
+    /*========= ICONS ==========*/
+    .github-icon img {
+        width: 4em;
+    }
+    
+    .linkedin-icon img {
+        width: 4em;
+    }
+    
+    .instagram-icon img {
+        width: 4em;
     }
 }
