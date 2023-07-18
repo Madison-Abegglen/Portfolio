@@ -6,14 +6,14 @@ body {
     background-color: #ccd4da;
 }
 
+.copyright {
+    margin: 0;
+}
+
 /*================== HOME ==================*/
 .home {
     display: flex;
     flex-direction: column;
-}
-
-.copyright {
-    margin: 0;
 }
 
 /*========= ROWS =========*/
@@ -47,11 +47,6 @@ body {
 }
 
 /*========= CARDS =========*/
-.title {
-    display: flex;
-    justify-content: center;
-}
-
 .card-home {
     height: 55vh;
     margin: 2rem;
@@ -84,6 +79,7 @@ body {
 
 /*========= STYLING CONTENT FOR MOBILE ========*/
 @media (max-width: 989px) {
+    /*================== HOME ==================*/
     /*========= ROWS =========*/
     .row-profile-fs {
         display: none;
@@ -112,6 +108,12 @@ body {
         height: auto;
     }
 
+    /*========= CARDS =========*/
+    .title {
+        display: flex;
+        justify-content: center;
+    }
+
     /*========= ICONS ==========*/
     .github-icon img {
         width: 3em;
@@ -128,6 +130,7 @@ body {
 
 /*========= STYLING CONTENT FOR FULLSCREEN ====*/
 @media (min-width: 991px) {
+    /*================== HOME ==================*/
     /*========= ROWS =========*/
     .row-profile-m {
         display: none;
