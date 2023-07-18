@@ -10,34 +10,6 @@ body {
     margin: 0;
 }
 
-/*================== HOME ==================*/
-.home {
-    display: flex;
-    flex-direction: column;
-}
-
-/*========= ROWS =========*/
-.row-profile-fs {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-}
-
-.row-profile-m {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.row-copyright {
-    width: 100vw;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-}
-
 .row-top-bumper {
     height: 15vh;
 }
@@ -46,124 +18,194 @@ body {
     height: 10vh;
 }
 
-/*========= CARDS =========*/
-.card-home {
-    height: 55vh;
-    margin: 2rem;
-    padding: 2rem;
-    background-color: #ebe9e8;
-    color: black;
-}
+/*================== HOME ==================*/
+    .home {
+        display: flex;
+        flex-direction: column;
+    }
 
-.card-home2 {
-    margin: 1rem;
-    padding: 3rem;
-    background-color: #ebe9e8;
-    color: black;
-}
-
-/*========= IMAGES =========*/
-.img-profile {
-    margin: 1rem;
-    border-radius: 25%;
-    max-height: 675px;
-    max-width: 505px;
-}
-
-.img-profile2 {
-    margin: 1rem;
-    border-radius: 25%;
-    min-height: 274px;
-    min-width: 230px;
-}
-
-/*========= STYLING CONTENT FOR MOBILE ========*/
-@media (max-width: 989px) {
-    /*================== HOME ==================*/
     /*========= ROWS =========*/
     .row-profile-fs {
-        display: none;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
     }
 
-    .row-socials-fs {
-        display: none;
+    .row-profile-m {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
-    .row-socials-m {
+    .row-copyright {
+        width: 100vw;
+        margin: 0;
         display: flex;
         justify-content: center;
     }
 
     .row-top-bumper {
-        height: 7.5vh;
+        height: 15vh;
     }
 
-    /*========= HEADER =========*/
-    .nav-header {
-        height: auto;
-    }
-
-    /*========= FOOTER =========*/
-    .nav-footer {
-        height: auto;
+    .row-bottom-bumper {
+        height: 10vh;
     }
 
     /*========= CARDS =========*/
-    .title {
-        display: flex;
-        justify-content: center;
+    .card-home {
+        height: 55vh;
+        margin: 2rem;
+        padding: 2rem;
+        background-color: #ebe9e8;
+        color: black;
     }
 
-    /*========= ICONS ==========*/
-    .github-icon img {
-        width: 3em;
+    .card-home2 {
+        margin: 1rem;
+        padding: 3rem;
+        background-color: #ebe9e8;
+        color: black;
     }
-    
-    .linkedin-icon img {
-        width: 3em;
-    }
-    
-    .instagram-icon img {
-        width: 3em;
-    }
-}
 
-/*========= STYLING CONTENT FOR FULLSCREEN ====*/
-@media (min-width: 991px) {
-    /*================== HOME ==================*/
-    /*========= ROWS =========*/
-    .row-profile-m {
+    /*========= IMAGES =========*/
+    .img-profile {
+        margin: 1rem;
+        border-radius: 25%;
+        max-height: 675px;
+        max-width: 505px;
+    }
+
+    .img-profile2 {
+        margin: 1rem;
+        border-radius: 25%;
+        min-height: 274px;
+        min-width: 230px;
+    }
+
+/*================== SKILLS ==================*/
+    .skills {
         display: none;
+        flex-direction: column;
     }
-    
-    .row-socials-m {
+
+/*================== QUALIFICATIONS ==========*/
+    .qualifications {
         display: none;
+        flex-direction: column;
     }
 
-    .row-socials-fs {
-        justify-content: flex-end;
+/*========= STYLING CONTENT FOR MOBILE ========*/
+    @media (max-width: 989px) {
+        /*========= HEADER ========*/
+        .nav-header {
+            height: auto;
+        }
+
+        /*========= FOOTER ========*/
+        .nav-footer {
+            height: auto;
+        }
+
+        /*================== HOME ==================*/
+            /*========= ROWS =========*/
+            .row-profile-fs {
+                display: none;
+            }
+
+            .row-socials-fs {
+                display: none;
+            }
+
+            .row-socials-m {
+                display: flex;
+                justify-content: center;
+            }
+
+            .row-top-bumper {
+                height: 7.5vh;
+            }
+
+             
+            
+            /*========= ICONS =========*/
+            .github-icon img {
+                width: 3em;
+            }
+            
+            .linkedin-icon img {
+                width: 3em;
+            }
+            
+            .instagram-icon img {
+                width: 3em;
+            }
+
+        /*================== SKILLS ==================*/
+            .row-skills-fs {
+                display: none;
+            }
+
+        /*================== QUALIFICATIONS ==========*/
+            .row-quals-fs {
+                display: none;
+            }
     }
 
-    /*========= HEADER =========*/
-    .nav-header {
-        height: 8vh;
-    }
+/*========= STYLING CONTENT FOR FULLSCREEN ===*/
+    @media (min-width: 991px) {
+        /*========= HEADER =======*/
+        .nav-header {
+            height: 8vh;
+        }
 
-    /*========= FOOTER =========*/
-    .nav-footer {
-        height: 8vh;
-    }
+        /*========= FOOTER =======*/
+        .nav-footer {
+            height: 8vh;
+        }
 
-    /*========= ICONS ==========*/
-    .github-icon img {
-        width: 4em;
+        /*================== HOME ==================*/
+            /*========= ROWS =========*/
+            .row-profile-m {
+                display: none;
+            }
+            
+            .row-socials-m {
+                display: none;
+            }
+
+            .row-socials-fs {
+                justify-content: flex-end;
+            }
+
+            /*========= CARDS ========*/
+            .title {
+                display: flex;
+                align-items: center;
+            }
+
+            /*========= ICONS ========*/
+            .github-icon img {
+                width: 4em;
+            }
+            
+            .linkedin-icon img {
+                width: 4em;
+            }
+            
+            .instagram-icon img {
+                width: 4em;
+            }
+
+        /*================== SKILLS ==================*/
+            .row-skills-m {
+                display: none;
+            }
+
+        /*================== QUALIFICATIONS ==========*/
+            .row-quals-m {
+                display: none;
+            }
     }
-    
-    .linkedin-icon img {
-        width: 4em;
-    }
-    
-    .instagram-icon img {
-        width: 4em;
-    }
-}

@@ -37,13 +37,16 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 col-10">
                 <li class="nav-item col-lg-1 offset-lg-9">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <!-- ONCLICK this link will hide Skills & Qualifications content + reveal Home content -->
+                    <a class="nav-link" aria-current="page" href="#" onclick="showDiv('home'); hideDiv('skills'); hideDiv('qualifications'); setActive(this);">Home</a>
                 </li>
                 <li class="nav-item col-lg-1">
-                    <a class="nav-link" href="#">Skills</a>
+                  <!-- ONCLICK this link will hide Home & Qualifications content + reveal Skills content -->
+                    <a class="nav-link" href="#" onclick="showDiv('skills'); hideDiv('home'); hideDiv('qualifications'); setActive(this);">Skills</a>
                 </li>
                 <li class="nav-item col-lg-1">
-                    <a class="nav-link" href="#">Qualifications</a>
+                  <!-- ONCLICK this link will hide Home & Skills content + reveal Qualifications content -->
+                    <a class="nav-link" href="#" onclick="showDiv('qualifications'); hideDiv('home'); hideDiv('skills'); setActive(this);">Qualifications</a>
                 </li>
             </ul>
         </div>
@@ -155,6 +158,39 @@
           <a href="https://www.instagram.com/madi_abegglen/" class="instagram-icon"><img src="/assets/instagram_bl.png" /></a>
         </div>
       </div>
+      <!--============================================-->
+      <div class="row row-bottom-bumper"></div>
+    </div>
+  <!--================== SKILLS ==================-->
+    <div class="skills container-fluid" id="skills">
+      <div class="row row-top-bumper"></div>
+      <!--================== FULLSCREEN ==============-->
+      <div class="row row-skills-fs">
+        <div class="card card-skills col-10 offset-1">
+          <div class="card-body title">
+            <h1 class="card-title">My Skills</h1>
+          </div>
+        </div>
+      </div>
+      <!--================== MOBILE ==================-->
+      <div class="row row-skills-m">
+        <h1>This is mobile skills section</h1>
+      </div>
+      <!--============================================-->
+      <div class="row row-bottom-bumper"></div>
+    </div>  
+  <!--================== QUALIFICATIONS ==========-->
+    <div class="qualifications container-fluid" id="qualifications">
+      <div class="row row-top-bumper"></div>
+      <!--================== FULLSCREEN ==============-->
+      <div class="row row-quals-fs">
+        <h1>This is fullscreen qualifications section</h1>
+      </div>
+      <!--================== MOBILE ==================-->
+      <div class="row row-quals-m">
+        <h1>This is mobile qualifications section</h1>
+      </div>
+      <!--============================================-->
       <div class="row row-bottom-bumper"></div>
     </div>
   <!--================== FOOTER ==================-->
