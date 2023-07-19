@@ -97,6 +97,13 @@ body {
         flex-direction: column;
     }
 
+    /*========= CARDS =========*/
+    .card-quals {
+        padding: 2rem;
+        background-color: #ebe9e8;
+        color: black;
+    }    
+
 /*========= STYLING CONTENT FOR MOBILE ========*/
     @media (max-width: 991px) {
         /*========= HEADER ========*/
@@ -203,8 +210,55 @@ body {
             }
 
         /*================== QUALIFICATIONS ==========*/
+            /*========= ROWS =========*/
             .row-quals-fs {
                 display: none;
+            }
+
+            .row-quals-m {
+                justify-content: center;
+            }
+
+            .row-work-edu {
+                justify-content: center;
+            }
+
+            /*========= CARDS ========*/
+            .title-quals {
+                display: flex;
+                justify-content: center;
+            }
+
+            .work {
+                display: flex;
+                justify-content: center;
+            }
+
+            .education {
+                display: flex;
+                justify-content: center;
+            }
+
+            .work-history {
+                padding: 1em;
+                display: flex;
+                justify-content: center;
+                text-align: center;
+            }
+
+            .work-history h5, p {
+                margin: 1em;
+            }
+
+            .edu-history {
+                padding: 1em;
+                display: flex;
+                justify-content: center;
+                text-align: center;
+            }
+
+            .edu-history h5, p {
+                margin: 1em;
             }
     }
 
@@ -315,5 +369,47 @@ body {
             /*========= ROWS =========*/
             .row-quals-m {
                 display: none;
+            }
+
+            .row-quals-fs {
+                justify-content: center;
+            }
+
+            /*========= CARDS ========*/
+            .title-quals {
+                display: flex;
+                justify-content: center;
+            }
+
+            .work {
+                display: flex;
+                justify-content: center;
+            }
+
+            .education {
+                display: flex;
+                justify-content: center;
+            }
+
+            .work-history {
+                padding: 1em;
+                display: flex;
+                justify-content: center;
+                text-align: center;
+            }
+
+            .work-history h5, p {
+                margin: 1em;
+            }
+
+            .edu-history {
+                padding: 1em;
+                display: flex;
+                justify-content: center;
+                text-align: center;
+            }
+
+            .edu-history h5, p {
+                margin: 1em;
             }
     }
