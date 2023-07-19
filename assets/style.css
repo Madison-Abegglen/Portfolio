@@ -228,9 +228,7 @@ body {
 
             .fs-icons img {
                 width: 5em;
-                margin-top: 1em;
-                margin-bottom: 1em;
-                margin-right: 4em;
+                margin: 1em;
             }
 
             .design-icons {
@@ -242,9 +240,7 @@ body {
 
             .design-icons img {
                 width: 5em;
-                margin-top: 1em;
-                margin-bottom: 1em;
-                margin-right: 4em;
+                margin: 1em;
             }
 
             /*================== QUALIFICATIONS ==========*/
