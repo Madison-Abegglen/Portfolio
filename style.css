@@ -160,6 +160,48 @@ body {
                 justify-content: center;
             }
 
+            .fullstack {
+                display: flex;
+                justify-content: center;
+            }
+
+            .design {
+                display: flex;
+                justify-content: center;
+                text-align: center;
+            }
+
+            .tech-list {
+                display: flex;
+                justify-content: center;
+                text-align: center;
+            }
+
+            /*========= ICONS ========*/
+            .fs-icons {
+                padding-top: 1em;
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+
+            .fs-icons img {
+                width: 4em;
+                margin: 1em;
+            }
+
+            .design-icons {
+                padding-top: 1em;
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+
+            .design-icons img {
+                width: 4em;
+                margin: 1em;
+            }
+
         /*================== QUALIFICATIONS ==========*/
             .row-quals-fs {
                 display: none;
@@ -248,25 +290,25 @@ body {
             .fs-icons {
                 padding-top: 1em;
                 display: flex;
-                justify-content: space-evenly;
+                justify-content: center;
                 flex-wrap: wrap;
             }
 
             .fs-icons img {
                 width: 5em;
-                margin: 1em;
+                margin: 1.5em;
             }
 
             .design-icons {
                 padding-top: 1em;
                 display: flex;
-                justify-content: space-evenly;
+                justify-content: center;
                 flex-wrap: wrap;
             }
 
             .design-icons img {
                 width: 5em;
-                margin: 1em;
+                margin: 1.5em;
             }
 
         /*================== QUALIFICATIONS ===========*/
