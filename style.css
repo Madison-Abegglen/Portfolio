@@ -46,14 +46,6 @@ body {
         justify-content: center;
     }
 
-    .row-top-bumper {
-        height: 15vh;
-    }
-
-    .row-bottom-bumper {
-        height: 10vh;
-    }
-
     /*========= CARDS =========*/
     .card-home {
         height: 55vh;
@@ -91,11 +83,13 @@ body {
         flex-direction: column;
     }
 
+    /*========= CARDS =========*/
     .card-skills {
         padding: 2rem;
         background-color: #ebe9e8;
         color: black;
-    }
+    } 
+    
 
 /*================== QUALIFICATIONS ==========*/
     .qualifications {
@@ -148,8 +142,22 @@ body {
             }
 
         /*================== SKILLS ==================*/
+            /*========= ROWS =========*/
             .row-skills-fs {
                 display: none;
+            }
+            
+            .row-skills-m {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            
+            /*========= CARDS ========*/
+            .title {
+                display: flex;
+                align-items: center;
+                justify-content: center;
             }
 
         /*================== QUALIFICATIONS ==========*/
@@ -158,7 +166,7 @@ body {
             }
     }
 
-/*========= STYLING CONTENT FOR FULLSCREEN ===*/
+/*========= STYLING CONTENT FOR FULLSCREEN ===========*/
     @media (min-width: 992px) {
         /*========= HEADER =======*/
         .nav-header {
@@ -170,7 +178,7 @@ body {
             height: 8vh;
         }
 
-        /*================== HOME ==================*/
+        /*================== HOME ====================*/
             /*========= ROWS =========*/
             .row-profile-m {
                 display: none;
@@ -204,12 +212,29 @@ body {
             }
 
             
-            /*================== SKILLS ==================*/
+        /*================== SKILLS ===================*/
+            /*========= ROWS =========*/
             .row-skills-m {
                 display: none;
             }
 
             .row-skills-fs {
+                justify-content: center;
+            }
+
+            /*========= CARDS ========*/
+            .title-skills {
+                display: flex;
+                justify-content: center;
+            }
+
+            .fullstack {
+                display: flex;
+                justify-content: center;
+            }
+
+            .design {
+                display: flex;
                 justify-content: center;
             }
 
@@ -219,6 +244,7 @@ body {
                 text-align: center;
             }
 
+            /*========= ICONS ========*/
             .fs-icons {
                 padding-top: 1em;
                 display: flex;
@@ -243,7 +269,8 @@ body {
                 margin: 1em;
             }
 
-            /*================== QUALIFICATIONS ==========*/
+        /*================== QUALIFICATIONS ===========*/
+            /*========= ROWS =========*/
             .row-quals-m {
                 display: none;
             }

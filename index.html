@@ -15,14 +15,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Prata&display=swap" rel="stylesheet">
     <!--================== LOCAL CSS ==================-->
-    <link rel="stylesheet" href="/assets/style.css" />
+    <link rel="stylesheet" href="/style.css" />
     <title>Portfolio | Madison Abegglen</title>
   </head>
   <body>
   <!--================== NAVBAR ==================-->
     <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top nav-header">
       <div class="container-fluid">
-        <span class="navbar-brand col-lg-1 offset-lg-1" href="">Madi</span>
+        <span class="navbar-brand col-1 offset-1" href="">Madi</span>
         <button
             class="navbar-toggler"
             type="button"
@@ -35,8 +35,8 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 col-10">
-                <li class="nav-item col-lg-1 offset-lg-9">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 col-10 justify-content-end">
+                <li class="nav-item col-lg-1">
                   <!-- ONCLICK this link will hide Skills & Qualifications content + reveal Home content -->
                     <a class="nav-link" aria-current="page" href="#" onclick="showDiv('home'); hideDiv('skills'); hideDiv('qualifications'); setActive(this);">Home</a>
                 </li>
@@ -166,12 +166,12 @@
       <div class="row row-top-bumper"></div>
       <!--================== FULLSCREEN ==============-->
       <div class="row row-skills-fs">
-        <div class="card card-skills col-8">
-          <div class="card-body title">
+        <div class="card card-skills col-9">
+          <div class="card-body title-skills">
             <h1 class="card-title">My Skills</h1>
           </div>
           <div class="card-body row">
-            <h5 class="card-text fullstack col-6">
+            <h5 class="card-text fullstack col-12">
               FULLSTACK
             </h5>
             <br/>
@@ -189,10 +189,12 @@
               <img src="/assets/sql-icon.png" alt="" class="sql-icon">
               <!-- <img src="/assets/react-icon.png" alt="" class="react-icon"> -->
             </div>
-            <div class="col-12">
+            <div class="col-12 spacer">
+              <br/>
+              <br/>
               <br/>
             </div>
-            <h5 class="card-text design col-6">
+            <h5 class="card-text design col-12">
               DESIGN &amp; VISUALIZATION
             </h5>
             <br/>
@@ -205,7 +207,7 @@
           </div>
           <div class="card-body row">
             <h5 class="card-text tech-list">
-              HTML5 | CSS3 | JavaScript | Node.js | Bootstrap | Git | jQuery | Salesforce: Apex | C# | .NET Framework | SQL | React
+              HTML5 | CSS3 | JavaScript | Node.js | Bootstrap | Git | jQuery | Salesforce: Apex | C# | .NET Framework | SQL
               <br/>
               <br/>
               Clip Studio Paint | Figma | Canva | Lucid Charts
@@ -213,15 +215,19 @@
           </div>
         </div>
       </div>
-    </div>
       <!--================== MOBILE ==================-->
       <div class="row row-skills-m">
-        <h1>This is mobile skills section</h1>
+        <div class="card card-skills col-11">
+          <div class="card-body title">
+            <h1 class="card-title">My Skills</h1>
+          </div>
+        </div>
       </div>
       <!--============================================-->
       <div class="row row-bottom-bumper"></div>
     </div>  
   <!--================== QUALIFICATIONS ==========-->
+    </div>
     <div class="qualifications container-fluid" id="qualifications">
       <div class="row row-top-bumper"></div>
       <!--================== FULLSCREEN ==============-->
