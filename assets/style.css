@@ -91,6 +91,12 @@ body {
         flex-direction: column;
     }
 
+    .card-skills {
+        padding: 2rem;
+        background-color: #ebe9e8;
+        color: black;
+    }
+
 /*================== QUALIFICATIONS ==========*/
     .qualifications {
         display: none;
@@ -98,7 +104,7 @@ body {
     }
 
 /*========= STYLING CONTENT FOR MOBILE ========*/
-    @media (max-width: 989px) {
+    @media (max-width: 991px) {
         /*========= HEADER ========*/
         .nav-header {
             height: auto;
@@ -128,8 +134,6 @@ body {
                 height: 7.5vh;
             }
 
-             
-            
             /*========= ICONS =========*/
             .github-icon img {
                 width: 3em;
@@ -155,7 +159,7 @@ body {
     }
 
 /*========= STYLING CONTENT FOR FULLSCREEN ===*/
-    @media (min-width: 991px) {
+    @media (min-width: 992px) {
         /*========= HEADER =======*/
         .nav-header {
             height: 8vh;
@@ -199,12 +203,51 @@ body {
                 width: 4em;
             }
 
-        /*================== SKILLS ==================*/
+            
+            /*================== SKILLS ==================*/
             .row-skills-m {
                 display: none;
             }
 
-        /*================== QUALIFICATIONS ==========*/
+            .row-skills-fs {
+                justify-content: center;
+            }
+
+            .tech-list {
+                display: flex;
+                justify-content: center;
+                text-align: center;
+            }
+
+            .fs-icons {
+                padding-top: 1em;
+                display: flex;
+                justify-content: space-evenly;
+                flex-wrap: wrap;
+            }
+
+            .fs-icons img {
+                width: 5em;
+                margin-top: 1em;
+                margin-bottom: 1em;
+                margin-right: 4em;
+            }
+
+            .design-icons {
+                padding-top: 1em;
+                display: flex;
+                justify-content: space-evenly;
+                flex-wrap: wrap;
+            }
+
+            .design-icons img {
+                width: 5em;
+                margin-top: 1em;
+                margin-bottom: 1em;
+                margin-right: 4em;
+            }
+
+            /*================== QUALIFICATIONS ==========*/
             .row-quals-m {
                 display: none;
             }
